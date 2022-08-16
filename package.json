@@ -1,0 +1,32 @@
+{
+    "name": "dkmh-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tranduy26913/dkmh-server.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tranduy26913/dkmh-server/issues"
+    },
+    "homepage": "https://github.com/tranduy26913/dkmh-server#readme",
+    "dependencies": {
+        "body-parser": "^1.19.2",
+        "cheerio": "^1.0.0-rc.3",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.0",
+        "express": "^4.18.1",
+        "got": "^10.4.0",
+        "node-html-parser": "^5.4.2-0",
+        "nodemon": "^2.0.15",
+        "request": "^2.88.2"
+    }
+}
